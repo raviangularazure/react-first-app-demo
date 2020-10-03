@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'; // Library that provides render() method etc -
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counter from './components/counter';
+import Counters from './components/counters';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Counters />
   </React.StrictMode>,
   document.getElementById('root')
 );
