@@ -1,0 +1,26 @@
+NodeJS and npm to be installed (Actually only npm is used here to install packages. Nodejs is a prerequisiste for npm, thats allb)
+
+npm i -g create-react-app (This will install all the react dependencies)
+
+create-react-app react-app1 (Creates a brand new react application)
+    - index.js (Starting point of react app)
+    - Component based just like Angular 2+ (infact most concepts of Angular seem to be borrowed from React)
+    - package.json (Contains all dependencies)
+
+npm i bootstrap (Boostrap css classes have been used in this sample application)
+
+React Component
+    - A javascript class that inherits from React.Component
+    - We do same ES5 module imports like we do in Angular 2+
+    - React component has two main parts 
+        - state (view model of the component)
+        - render() (function that renders the html)
+    - React Virtual DOM - We write jsx that updates a virtual DOM which in turn keeps the real HTML DOM is sync
+    This is the reason why we write code in jsx syntax instead of directly access DOM element using javascript syntax in React
+
+    - React JSX is not a templating engine like Angular 2+ - It does not have ngIf, ngFor etc. 
+    - So these things have to be done via javascript functions such as map() to iterate through an array etc etc.
+
+Events in React
+    - Very similar to Angular 2+ e.g. onClick={this.state.handleSave()}
+
