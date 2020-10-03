@@ -9,6 +9,8 @@ create-react-app react-app1 (Creates a brand new react application)
 
 npm i bootstrap (Boostrap css classes have been used in this sample application)
 
+To run the app => npm start
+
 React Component
     - A javascript class that inherits from React.Component
     - We do same ES5 module imports like we do in Angular 2+
