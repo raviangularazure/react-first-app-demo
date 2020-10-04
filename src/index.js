@@ -133,6 +133,36 @@ teachr.teach();
 // Modules - Nothing but a file. Each file is a module that can export objects like classes, functions, interfaces, even properties
 
 //Create a new file Person.js or Person.ts
-export class PersonNew { // index (since its index.js) is the module (in other words ES6 or ES2015 module) in which this class is present
-
+export class PersonNew {
+  // index (since its index.js) is the module (in other words ES6 or ES2015 module) in which this class is present
 }
+
+// ES2015 or ES modules the same and its just a file which has one or more exports of class / function / interface etc inside it.
+
+// Object - Oriented Javascript
+
+// There are 2 ways to create an object in Javascript
+
+// 1) Factory Function
+function createCircle(radius) {
+  return {
+    radius: radius,
+    draw: function () {
+      console.log("draw");
+    },
+  };
+}
+
+const circle = createCircle(1);
+
+// 2) Constructor Function
+function Circle(radius) {
+  this.radius = radius; // 'this' is used to create the properties and functions in a constructor function
+  this.draw = function () {
+    console.log("draw");
+  };
+}
+
+const anotheCircle = new Circle(1); // The new keyword create a new object {}, then sets the 'this' to this object and returns this object
+anotheCircle.draw();
+// The ES6 class is just a syntactic sugar to create a constructor function as above

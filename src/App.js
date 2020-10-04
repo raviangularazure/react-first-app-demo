@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   handleDelete = (counterId) => {
-    const counters = this.state.counters.filter((c) => c.id != counterId);
+    const counters = this.state.counters.filter((c) => c.id !== counterId);
     this.setState({ counters: counters });
   };
 
@@ -70,4 +70,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; // Just creating an export of App class. Nothing fancy

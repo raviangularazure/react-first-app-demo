@@ -53,4 +53,29 @@ UnMount - componentWillUnMount()
 
 When a component is rendered all its child components are rendered in a recursive fashion
 
-index.js - At the end of the file there are many examples of ES6 javascript concepts we use in React commonly
+In index.js - At the end of the file there are many examples of ES6 javascript concepts we use in React commonly
+
+Object - Oriented Javascript concepts
+
+4 pillars of any OOP language:
+Encapuslation - Class wrapping related properties and methods
+Abstraction - Hiding the complexity (implementation details) and expose only essentials from a class
+Inheritance - You know what this is.
+Polymorphism - Many forms.
+
+Functions are also objects in Javascript
+
+Primitive types are immutable
+Reference types are muted - Reference is always the same when you make a copy. Use spread operator to clone without mutation.
+If you use spread in array of objects, only the array is cloned. The objects inside the array is not cloned. So we need to clone the objects separately again using ... spread again.
+
+The spread if an important operator in React since the state cannot be directly modified. It needs to be cloned and setState() method called.
+The map is another important operator to iterate through values and create elements to render (*ngFor equivalent in Angular)
+
+Function Closures:
+The variables of the parent function is accessible inside an inner function (IIFE is also a function)
+
+ 
+
+
+
