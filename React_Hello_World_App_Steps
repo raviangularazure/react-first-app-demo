@@ -4,6 +4,11 @@ NodeJS and npm to be installed (Actually only npm is used here to install packag
 
 npm i -g create-react-app (This will install all the react dependencies)
 
+Shortcuts (From Simple React Snippets)
+imrc - import react and components
+cc - create a new component class
+sfc  - create a new stateless function component
+
 create-react-app react-app1 (Creates a brand new react application)
     - index.js (Starting point of react app)
     - Component based just like Angular 2+ (infact most concepts of Angular seem to be borrowed from React)
@@ -38,3 +43,12 @@ Props vs state
     - State is data that is local (not visible outside the component) to the component (view model)
 
 In state immutability is critical - We use spread ... operators a lot for this reason.
+
+Check Object destructuring
+
+Component Lifecyle hooks:
+Mount - Instance of component is created. constructor(), render(), componentDidMount() are the 3 hooks called in given order
+update - render(), componentDidUpdate() are the 2 hooks called in given order
+UnMount - componentWillUnMount()
+
+When a component is rendered all its child components are rendered in a recursive fashion

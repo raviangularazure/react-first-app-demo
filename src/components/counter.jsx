@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
- 
+  componentWillUnmount() {
+    console.log("Counters - UnMount"); // e.g. delete a counter and see.
+  }
+  
   render() {
     return (
       <React.Fragment>
