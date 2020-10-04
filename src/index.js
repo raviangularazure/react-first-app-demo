@@ -133,6 +133,6 @@ teachr.teach();
 // Modules - Nothing but a file. Each file is a module that can export objects like classes, functions, interfaces, even properties
 
 //Create a new file Person.js or Person.ts
-export class PersonNew { // index (since its index.js) is the module in which this class is present
+export class PersonNew { // index (since its index.js) is the module (in other words ES6 or ES2015 module) in which this class is present
 
 }
