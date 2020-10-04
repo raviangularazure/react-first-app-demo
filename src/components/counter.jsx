@@ -1,4 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; // Here React is the default export and Component is a named export
+// Default export (only one) can be directly access with { } - export default Person {} - This 'default' keyword will make Person the default export
+// Named exports must always be inside { }
+
+// In the from the default values that come are coming from node module dependencies. Try it in below line
+// import { } from ""
 
 class Counter extends Component {
   componentWillUnmount() {
@@ -46,4 +51,4 @@ class Counter extends Component {
   }
 }
 
-export default Counter;
+export default Counter; // The default will make this Counter the default export object for this counter module

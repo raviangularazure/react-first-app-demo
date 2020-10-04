@@ -52,3 +52,5 @@ update - render(), componentDidUpdate() are the 2 hooks called in given order
 UnMount - componentWillUnMount()
 
 When a component is rendered all its child components are rendered in a recursive fashion
+
+index.js - At the end of the file there are many examples of ES6 javascript concepts we use in React commonly
